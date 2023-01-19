@@ -1,0 +1,157 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    width: 1440px;
+    margin: auto;
+}
+
+.header{
+    background: #424A57;
+    height: 144px;
+}
+.header img{
+    padding: 56px 100px 56px 100px;
+    float:left;
+    width: 190px;
+    height: 32px;
+}
+.header a{
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    position: relative;
+}
+.menu ul{
+    position: relative;
+    top: 56px;
+    right: 100px;
+}
+.menu li{
+    float: left;
+    margin-left: 32px;
+}
+.banner{
+    background-color:rgba(246, 248, 251, 0.9);
+    height: 430px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.banner img{
+    padding-left: 100px;
+    padding-right: 60px;
+    width: 590px;
+    float: left;
+}
+.banner_content{
+    width: 590px;
+    height: 396px;
+    float: right;
+    padding-right: 100px;
+    margin: 50px 0px;
+}
+.banner_content h1{
+    color: #424A57;
+    font-size: 54px;
+    font-weight: bold;
+}
+.banner_subtitle{
+    padding-top: 56px;
+    color: black;
+    font-size: 27px;
+} 
+.banner_content button{
+    border-radius: 32px;
+    width: 251px;
+    height: 52px;
+    background-color: #0096A7;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 32px;
+}
+.benefits{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.benefits img{
+    width: 44px;
+}
+
+.benefits h4{
+    color: #424A57;
+    font-size: 24px;
+    font-weight: bold;
+}
+.benefits_grid{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 44px auto;
+}
+.img_icon{
+    justify-self: start;
+}
+.grid_content{
+    justify-self: start;
+    margin-top: 10px;
+}
+.benefits p{
+    padding-top: 16px;
+    font-size: 18px;
+}
+.features h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #424A57;
+    padding-bottom: 32px;
+}
+.grid_features{
+    padding-top: 85px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.features{
+    padding-bottom: 85px;
+}
+.features h4{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.features p{
+    font-size: 18px;
+}
+footer{
+    background-color: rgba(66, 74, 87, 0.5);
+    height: 144px;
+}
+.copyrght{
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 47px 335px 47px 100px;
+}
+.soc{
+    float: right;
+    position: relative;
+}
+.soc ul{
+    position: relative;
+    top: 47px;
+    right: 100px;
+}
+.soc li{
+    float: left;
+    margin-left: 32px;
+}
