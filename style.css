@@ -1,5 +1,6 @@
 html, body{
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 @media (min-width: 1200px) {
     .app{
